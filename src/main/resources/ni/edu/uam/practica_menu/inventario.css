@@ -1,0 +1,169 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f4f7f8;
+}
+
+.menu-bar {
+    -fx-background-color: #073b4c;
+    -fx-padding: 2 10 2 10;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu:hover,
+.menu:showing {
+    -fx-background-color: #0a566d;
+}
+
+.context-menu {
+    -fx-background-color: white;
+}
+
+.context-menu .label {
+    -fx-text-fill: #24343b;
+}
+
+.barra-herramientas {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #d9e2e5 transparent;
+    -fx-padding: 9 16 9 16;
+}
+
+.boton-herramienta,
+.boton-secundario {
+    -fx-background-color: #e9f0f2;
+    -fx-text-fill: #173f4b;
+    -fx-background-radius: 6;
+    -fx-padding: 8 14 8 14;
+    -fx-cursor: hand;
+}
+
+.boton-herramienta:hover,
+.boton-secundario:hover {
+    -fx-background-color: #d7e5e9;
+}
+
+.boton-principal,
+.boton-guardar {
+    -fx-background-color: #0097a7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16 8 16;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover,
+.boton-guardar:hover {
+    -fx-background-color: #007f8c;
+}
+
+.boton-peligro {
+    -fx-background-color: #fff0ee;
+    -fx-text-fill: #b42318;
+    -fx-background-radius: 6;
+    -fx-padding: 8 14 8 14;
+    -fx-cursor: hand;
+}
+
+.boton-peligro:hover {
+    -fx-background-color: #fbd7d2;
+}
+
+.contenido {
+    -fx-background-color: #f4f7f8;
+}
+
+.titulo {
+    -fx-text-fill: #073b4c;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.subtitulo {
+    -fx-text-fill: #61777f;
+    -fx-font-size: 13px;
+}
+
+.tarjeta-formulario {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: #dce5e8;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(
+            gaussian,
+            rgba(16, 49, 60, 0.08),
+            12,
+            0,
+            0,
+            3
+    );
+}
+
+.etiqueta-campo {
+    -fx-text-fill: #29434b;
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #fbfcfd;
+    -fx-border-color: #cbd8dc;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 7 9 7 9;
+}
+
+.text-field:focused {
+    -fx-border-color: #0097a7;
+}
+
+.encabezado-tabla {
+    -fx-text-fill: #173f4b;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d8e3e6;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #dff2f4;
+    -fx-background-radius: 8 8 0 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #174a57;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bfe8ec;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #073b4c;
+}
+
+.barra-estado {
+    -fx-background-color: white;
+    -fx-border-color: #dce5e8;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-padding: 9 12 9 12;
+}
+
+.indicador-estado {
+    -fx-text-fill: #18a66b;
+}
